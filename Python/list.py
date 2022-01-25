@@ -20,7 +20,7 @@ print //A grosso modo a função print() serve para imprimir os argumentos passa
 
 sleep //espera um valor inteiro positivo que representa a quantidade milissegundos que é necessário esperar
 
-                                                                     
+finally //finally() O método finally() retorna uma Promise . Quando a promise for estabelecida, tenha ela sido realizada ou rejeitada, executa-se a função callback especificada. Isso permite a execução de um código que acontecerá independentemente da Promise ter sido realizada (com sucesso) ou rejeitada (com falha).                                                                    
 
 os.system ("COLOQUE O NOME DO COMANDO")
 
