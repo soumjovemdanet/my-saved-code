@@ -23,3 +23,21 @@ sleep //espera um valor inteiro positivo que representa a quantidade milissegund
                                                                      
 
 os.system ("COLOQUE O NOME DO COMANDO")
+
+ua = {
+    "colocar aqui o user agent do navegador que está no sistema operacional"
+}
+
+----------------------------------------------------------------------------------------------
+//importação de um cliente para codigo de confirmação de telefone verificação em etapas
+client = TelegramClient("session/" + phone_number, api_id, api_hash)
+client.connect()
+if not client.is_user_authorized():
+    try:
+        client.send_code_request(phone_number)
+        me = client.sign_in(phone_number, input("\n\n\n\033[1;0mEnter Your Code : "))
+    except SessionPasswordNeededError:
+        passw = input("\033[1;0mYour 2fa Password : ")
+        me = client.start(phone_number, passw)
+myself = client.get_me()
+----------------------------------------------------------------------------------------
