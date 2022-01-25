@@ -14,6 +14,10 @@ import requests //EMBREVE
 
 from time import sleep  //importando o tempo
 
+time //A função localtime recebe um tempo em segundos
+
+print //A grosso modo a função print() serve para imprimir os argumentos passados a ela no terminal.
+
 sleep //espera um valor inteiro positivo que representa a quantidade milissegundos que é necessário esperar
 
                                                                      
