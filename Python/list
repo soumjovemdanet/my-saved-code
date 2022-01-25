@@ -7,7 +7,15 @@
 888           888         888     888    888 Y88b. .d88P 888   Y8888 
 888           888         888     888    888  "Y88888P"  888    Y888 
                                                                      
-                                                                     
+ 
+import webbrowser   //importando um navegador
+
+import requests //EMBREVE
+
+from time import sleep  //importando o tempo
+
+sleep //espera um valor inteiro positivo que representa a quantidade milissegundos que é necessário esperar
+
                                                                      
 
 os.system ("COLOQUE O NOME DO COMANDO")
