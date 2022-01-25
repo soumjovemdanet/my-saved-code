@@ -28,6 +28,7 @@ ua = {
     "colocar aqui o user agent do navegador que está no sistema operacional"
 }
 
+client.disconnect() //disconnect() pode ser usado apenas no lado do cliente, não no lado do servidor. Client. emit('disconnect') dispara o evento de desconexão no servidor, mas não desconecta efetivamente o cliente. ... disconnect() pode ser usado no lado do servidor.
 ----------------------------------------------------------------------------------------------
 //importação de um cliente para codigo de confirmação de telefone verificação em etapas
 client = TelegramClient("session/" + phone_number, api_id, api_hash)
